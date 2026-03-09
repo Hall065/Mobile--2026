@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
   // Passo 5 - Controla o texto do TextField, consegue apresentar, limpar e alterar oq foi digitado.
   final TextEditingController controller = TextEditingController();
 
-  // Função Adicionar
+  // Função Adicionar Tarefa
   void adicionarTarefa() {
     if (controller.text.trim().isEmpty) return; // Extra 1 - Impedir tarefa vazia
 
